@@ -1,0 +1,32 @@
+﻿<Window x:Class="_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="grid">
+        <Button Content="1" HorizontalAlignment="Left" Margin="181,151,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF11AAB5" BorderBrush="#FF060404"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="181,200,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF11AAB5" BorderBrush="#FF060404"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="181,250,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF11AAB5" BorderBrush="#FF060404"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="181,300,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF11AAB5" BorderBrush="#FF060404"/>
+        <Button  HorizontalAlignment="Left" Margin="230,151,0,0" VerticalAlignment="Top" Width="40" Height="40" BorderBrush="#FF060404" Background="#FF11AAB5">
+            <Button.Content>2         
+            </Button.Content>
+        </Button>
+        <Button Content="5" HorizontalAlignment="Left" Margin="230,200,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF11AAB5" BorderBrush="#FF060404"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="230,250,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF11AAB5" BorderBrush="#FF060404"/>
+        <Button Content="," HorizontalAlignment="Left" Margin="230,300,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF11AAB5" BorderBrush="#FF060404"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="280,150,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF11AAB5" BorderBrush="#FF060404"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="280,200,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF11AAB5" BorderBrush="#FF060404"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="280,250,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FF11AAB5" BorderBrush="#FF060404"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="280,300,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FFC8C229" BorderBrush="#FF060404"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="350,150,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FFA42086" BorderBrush="#FF060404"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="350,200,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FFA42086" BorderBrush="#FF060404"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="350,250,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FFA42086" BorderBrush="#FF060404"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="350,300,0,0" VerticalAlignment="Top" Width="40" Height="40" Background="#FFA42086" BorderBrush="#FF060404"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="181,100,0,0" VerticalAlignment="Top" Width="209" Height="40" Background="#FFF9F6F6" BorderBrush="#FF060404"/>
+
+    </Grid>
+</Window>
